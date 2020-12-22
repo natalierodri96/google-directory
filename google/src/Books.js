@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import Books from './Books';
+import Search from './Search';
 
 
 class Books extends Component {
     render () {
         return (
-            <div className="App">
-              <Books/>
+            <div>
+                
             </div>
         );
     }

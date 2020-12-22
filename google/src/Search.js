@@ -5,7 +5,7 @@ import Search from './Search';
 class Search extends Component {
     render () {
         return (
-            <div className="App">
+            <div className="search">
               <Books/>
             </div>
         );

@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
 import './App.css';
 import { Layout, Header, Navigation, Content } from 'react-mdl';
+import Books from './Books';
+
+
+
 class App extends Component {
   render() {
     return (
@@ -10,6 +14,7 @@ class App extends Component {
             <Navigation>
                
             </Navigation>
+            <Books />
         </Header>
         <Content>
             <div className="page-content" />
