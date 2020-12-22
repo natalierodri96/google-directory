@@ -6,7 +6,10 @@ class Search extends Component {
     render () {
         return (
             <div className="search">
-              <Books/>
+             <form action="">
+                 <input type="text"/>
+
+             </form>
             </div>
         );
     }
